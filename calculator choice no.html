@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title>Calculator choice no</title>
+
+	<script >
+		
+		function  mul() {
+			var a,b,c;
+
+			if (c=1) {
+			a= Number(document.getElementById("fir").value);
+			b= Number(document.getElementById("sec").value);
+			c= Number(document.getElementById("cnn").value);
+			c=a+b;
+			alert("addition="+c);
+			}
+
+			if (c=2) {
+			a= Number(document.getElementById("fir").value);
+			b= Number(document.getElementById("sec").value);
+			c= Number(document.getElementById("cnn").value);
+			c=a-b;
+			alert("Subtraction="+c);
+			}
+
+			if (c=3) {
+			a= Number(document.getElementById("fir").value);
+			b= Number(document.getElementById("sec").value);
+			c= Number(document.getElementById("cnn").value);
+			c=a*b;
+			alert("Multiply="+c);
+			}
+
+			if (c=4) {
+			a= Number(document.getElementById("fir").value);
+			b= Number(document.getElementById("sec").value);
+			c= Number(document.getElementById("cnn").value);
+			c=a/b;
+			alert("Divide="+c);
+			}
+
+
+		
+		}
+
+
+	</script>
+
+</head>
+<body>
+	<br>
+	<h1 style="color: green; text-align: center;"> Calcuator with choice number </h1>
+
+	<center>
+	<form>
+
+		<h3 style="color: red">Choice Number <mark>{ 1 = + , 2 = - , 3 = * , 4 = / }</mark></h3>
+
+		Enter First Number <br>
+		<input type="text" name="" id="fir" autocomplete="off"><br><br>
+
+		Enter Sceond Number <br>
+		<input type="text" name="" id="sec" autocomplete="off"><br><br>
+
+		Enter Choice Number <br>
+		<input type="text" name="" id="cnn"><br><br>
+
+		<input type="submit" name="" value="Submit" onclick="mul()" autocomplete="off">
+	</form>
+	</center>
+
+
+</body>
+</html>
